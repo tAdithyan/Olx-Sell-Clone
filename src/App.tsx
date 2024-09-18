@@ -1,11 +1,12 @@
 
-import './App.css'
+import HomePage from './Pages/HomePage'
 
 function App() {
 
   return (
     <>
-<p >Data</p>
+<HomePage/>
+
     </>
   )
 }
