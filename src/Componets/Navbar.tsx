@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
 import { Button, Modal } from 'antd';
-import { Form } from "antd";
-
+import Forms from './Form';
 
 const Navbar = () => {
     const [modal2Open, setModal2Open] = useState(false);
@@ -20,9 +19,7 @@ const Navbar = () => {
         onOk={() => setModal2Open(false)}
         onCancel={() => setModal2Open(false)}
       >
-        <p>some contents...</p>
-        <p>some contents...</p>
-        <p>some contents...</p>
+       <Forms/>
       </Modal>
 
     </div>
